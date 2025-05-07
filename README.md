@@ -1,5 +1,7 @@
 ## Bagged vs. Basic OMP
 
+Pair w/ https://github.com/soodoku/bagged_fsr
+
 Sparse linear models like **Orthogonal Matching Pursuit (OMP)** recover a small set of predictive features, but they can suffer high variance in support selection and prediction error on small or noisy datasets. **Bootstrap aggregating (bagging)** reduces variance by averaging multiple models trained on resampled data (Efron & Tibshirani, 1994). Here, we investigate whether bagging OMP yields more reliable coefficient recovery and lower out-of-sample error.
 
 ## 2. Experimental Design
